@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My RADHA?</title>
+    <style>
+        body {
+            background-image: url('radha.jpg'); /* Replace 'radha-krishna.jpg' with your image file */
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 36px;
+            margin-top: 100px;
+            color: #ff69b4; /* Romantic pink color for text */
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        button {
+            font-size: 18px;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .yes-button {
+            background-color: #ff69b4; /* Romantic pink color */
+            color: white;
+        }
+        .no-button {
+            background-color: #ff9999; /* Light red color */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Will You Be My RADHA?</h1>
+    <div class="buttons">
+        <button class="yes-button" onclick="showMessage('I will take care of you till my death')">Yes</button>
+        <button class="no-button" onclick="showMessage('Pressed on the Yes button or else I will kill you')">No</button>
+    </div>
+
+    <script>
+        function showMessage(message) {
+            alert(message);
+        }
+    </script>
+</body>
+</html>
